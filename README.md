@@ -1,8 +1,6 @@
 # -Projeto-Mensal-Paralelo-
 #
-# Integrantes: 
-# André Victor
-# Wuigor Matteus
+# Integrantes: André Victor e Wuigor Matteus
 #
 #
 # Descrição:
