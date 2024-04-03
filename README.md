@@ -4,6 +4,7 @@
 # André Victor
 # Wuigor Matteus
 #
+#
 # Descrição:
 # O "Paralelo" será uma plataforma independente, oferecendo uma variedade de pesquisa de jogos,para usuários de todas as idades e preferências. A plataforma permitirá aos usuários navegar, descobrir, e obter informações gerais sobre o jogo.
 #
