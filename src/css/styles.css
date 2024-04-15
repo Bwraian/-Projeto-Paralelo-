@@ -3,15 +3,21 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: content-box ;
   list-style: none;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
+ 
 }
 
-body {
-   background-image: url(/src/images/backgound.png); 
+html,body {
+  min-height: 200%;
+  
+   position: relative;
+   background-image: url(/src/images/backgound.png);
+   background-size :100%;
 }
+
 
 .wrapper {
   display: flex;
@@ -22,7 +28,7 @@ body {
   position: fixed;
   width: 210px;
   height: 100%;
-  background-color: #030303;
+  background-color: #000000;
   padding: 30px 25px;
   opacity: 0.7;
   border-radius: 15px;
@@ -42,7 +48,7 @@ body {
 }
 
 .sidebar ul li a {
-  color: #fff;
+  color: #ffffff;
   display: block;
 }
 
@@ -54,12 +60,12 @@ body {
   width: max-content;
   display: flex;
   align-items: center;
-  padding: 14px;
+  padding: 8px;
   border-radius: 28px;
   background: rgba(0, 0, 0, 0.5);
   opacity: 0.9;
   transition: background 0.25s;
-  margin: 22px 750px;
+  margin: 1px 750px;
 }
 
 .search:focus-within {
@@ -83,9 +89,10 @@ body {
 .search-icon {
   color: #fff;
 }
-
-.img1 {
-  position: fixed; 
+/* Imagens inicio */
+/* stardew valley */
+.img1 { 
+  position:absolute; 
   width: 500px; 
   height: 460px; 
   margin: 0 auto;
@@ -99,9 +106,9 @@ body {
   height: auto; 
   border-radius: 15px;
 }
-
+/* red dead 2 */
 .img2 {
-  position: fixed; 
+  position: absolute; 
   width: 250px; 
   height: 1250px; 
   margin: 100px;
@@ -115,9 +122,9 @@ body {
   height: auto; 
   border-radius: 15px;
 }
-
+/* baldurs gate 3 */
 .img3 {
-  position: fixed; 
+  position: absolute; 
   width: 650px; 
   height: 1250px; 
   margin: 100px;
@@ -131,24 +138,265 @@ body {
   height: auto; 
   border-radius: 15px;
 }
-
+/* Texto Inicio */
 .text-stardew-valley {
+  font-size: 12px;
   color: #fff;
   position: absolute;
-  left: 505px;
-  top: 522px;
+  left: 509px;
+  top: 530px;
 }
 
 .text-red-dead2 {
+  font-size: 12px;
   color: #fff;
   position: absolute;
   left: 330px;
-  top: 824px;
+  top: 830px;
 }
 
 .text-baldurs-gate3 {
+  font-size: 12px;
   color: #fff;
   position: absolute;
-  left: 1071px;
-  top: 824px;
+  left: 1070px;
+  top: 830px;
+}
+  /* preco jogo inicio */
+.preco-stardew-valley {
+  font-size: 11px;
+  color: #fff;
+  position: absolute;
+  left: 1246px;
+  top: 532px;
+}
+
+.preco-red-dead2 {
+  font-size: 11px;
+  color: #fff;
+  position: absolute;
+  left: 695px;
+  top: 832px;
+}
+
+.preco-baldurs-gate3 {
+  font-size: 11px;
+  color: #fff;
+  position: absolute;
+  left: 1432px;
+  top: 832px;
+}
+
+/* Imagen Inicio Fim */
+
+/* Imagen catalogo  */
+ /* stardew valley */
+.imgC1 {
+  position: absolute; 
+  width: 300px; 
+  height: 300px; 
+  margin: 0 auto;
+}
+.imgC1 img {
+  position: absolute; 
+  top: 70%;
+  left: 185%;
+  transform: translate(-50%, -50%); 
+  max-width: 300px; 
+  height: auto; 
+  border-radius: 15px;
+}
+ /* red dead 2 */
+.imgC2 {
+  position:  absolute; 
+  width: 245px; 
+  height: 700px; 
+  margin: 100px;
+}
+.imgC2 img {
+  position: absolute; 
+  top: 50%;
+  left: 185%;
+  transform: translate(-50%, -50%); 
+  max-width: 300px; 
+  height: auto; 
+  border-radius: 15px;
+}
+
+/* categoria dos jogos */
+.rpg1{
+  position: absolute; 
+  font-size: 10px;
+  color: #fff; 
+  right: 34%;
+  top: 1401%;
+}
+
+ .rpg2 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 70%;
+  top: 200%;
+}
+
+ .avnt1 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 37%;
+  top: 1400%;
+} 
+
+.avnt2 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 64%;
+  top: 200%;
+}
+
+.acao1 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 79%;
+  top: 1400%;
+}
+
+.tiro1 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 76%;
+  top: 1400%;
+} 
+
+/* baldurs gate3  */
+.imgC3 {
+  position: absolute; 
+  width: 245px; 
+  height: 1200px; 
+  margin: 100px;
+}
+.imgC3 img {
+  position: absolute; 
+  top: 50%;
+  left: 185%;
+  transform: translate(-50%, -50%); 
+  max-width: 300px; 
+  height: auto; 
+  border-radius: 15px;
+}
+/* valorant  */
+.imgC4 {
+  position: absolute; 
+  width: 505px; 
+  height: 1200px; 
+  margin: 100px;
+}
+.imgC4 img {
+  position: absolute; 
+  top: 50%;
+  left: 185%;
+  transform: translate(-50%, -50%); 
+  max-width: 300px; 
+  height: auto; 
+  border-radius: 15px;
+}
+  /* alien isolation */
+.imgC5 {
+  position: absolute; 
+  width: 505px; 
+  height: 700px; 
+  margin: 100px;
+}
+.imgC5 img {
+  position: absolute; 
+  top: 50%;
+  left: 185%;
+  transform: translate(-50%, -50%); 
+  max-width: 300px; 
+  height: auto; 
+  border-radius: 15px;
+}
+/* outlast */
+.imgC6 {
+  position: absolute; 
+  width: 557px; 
+  height: 300px; 
+  margin: 0 auto;
+}
+.imgC6 img {
+  position: absolute; 
+  top: 70%;
+  left: 185%;
+  transform: translate(-50%, -50%); 
+  max-width: 300px; 
+  height: auto; 
+  border-radius: 15px;
+}
+/* God of war  */
+.imgC7 {
+  position: absolute; 
+  width: 795px; 
+  height: 300px; 
+  margin: 0 auto;
+}
+.imgC7 img {
+  position: absolute; 
+  top: 70%;
+  left: 185%;
+  transform: translate(-50%, -50%); 
+  max-width: 300px; 
+  height: auto; 
+  border-radius: 15px;
+}
+/* the last of us 2 */
+.imgC8 {
+  position: absolute; 
+  width: 795px; 
+  height: 645px; 
+  margin: 0 auto;
+}
+.imgC8 img {
+  position: absolute; 
+  top: 70%;
+  left: 185%;
+  transform: translate(-50%, -50%); 
+  max-width: 300px; 
+  height: auto; 
+  border-radius: 15px;
+}
+/* euro truck */
+.imgC9 {
+  position: absolute; 
+  width: 795px; 
+  height: 1000px; 
+  margin: 0 auto;
+}
+.imgC9 img {
+  position: absolute; 
+  top: 70%;
+  left: 185%;
+  transform: translate(-50%, -50%); 
+  max-width: 300px; 
+  height: auto; 
+  border-radius: 15px;
+}
+/* goat simulator */
+.imgC10 {
+  position: absolute; 
+  width: 795px; 
+  height: 1300px; 
+  margin: 0 auto;
+}
+.imgC10 img {
+  position: absolute; 
+  top: 70%;
+  left: 185%;
+  transform: translate(-50%, -50%); 
+  max-width: 300px; 
+  height: auto; 
+  border-radius: 15px;
 }
