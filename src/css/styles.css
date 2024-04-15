@@ -92,7 +92,7 @@ body {
 }
 .img1 img {
   position: absolute; 
-  top: 50%;
+  top: 70%;
   left: 185%;
   transform: translate(-50%, -50%); 
   max-width: 700px; 
@@ -104,7 +104,7 @@ body {
   position: fixed; 
   width: 300px; 
   height: 1200px; 
-  margin: 0 auto;
+  margin: 100px;
 }
 .img2 img {
   position: absolute; 
@@ -118,9 +118,9 @@ body {
 
 .img3 {
   position: fixed; 
-  width: 750px; 
+  width: 700px; 
   height: 1200px; 
-  margin: 0 auto;
+  margin: 100px;
 }
 .img3 img {
   position: absolute; 
