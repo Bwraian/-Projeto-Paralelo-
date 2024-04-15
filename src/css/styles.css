@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: content-box ;
+  box-sizing: border-box ;
   list-style: none;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
@@ -11,7 +11,7 @@
 }
 
 html,body {
-  min-height: 200%;
+  min-height: 100vh;
   
    position: relative;
    background-image: url(/src/images/backgound.png);
@@ -187,9 +187,55 @@ html,body {
   top: 832px;
 }
 
-/* Imagen Inicio Fim */
+/* categoria dos jogos */
+.rpg1{
+  font-size: 11px;
+  color: #fff;
+  position: absolute;
+  left: 1077px;
+  top: 589px;
+}
+ .rpg2{
+  font-size: 15px;
+  color: #fff;
+  position: absolute;
+  left: 530px;
+  top: 95px;
+ }
+ .avnt1 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 37%;
+  top: 1400%;
+} 
 
-/* Imagen catalogo  */
+.avnt2 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 64%;
+  top: 200%;
+}
+
+.acao1 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 79%;
+  top: 1400%;
+}
+
+.tiro1 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 76%;
+  top: 1400%;
+} 
+
+
+/* catalogo  */
  /* stardew valley */
 .imgC1 {
   position: absolute; 
@@ -223,54 +269,6 @@ html,body {
   border-radius: 15px;
 }
 
-/* categoria dos jogos */
-.rpg1{
-  position: absolute; 
-  font-size: 10px;
-  color: #fff; 
-  right: 34%;
-  top: 1401%;
-}
-
- .rpg2 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 70%;
-  top: 200%;
-}
-
- .avnt1 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 37%;
-  top: 1400%;
-} 
-
-.avnt2 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 64%;
-  top: 200%;
-}
-
-.acao1 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 79%;
-  top: 1400%;
-}
-
-.tiro1 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 76%;
-  top: 1400%;
-} 
 
 /* baldurs gate3  */
 .imgC3 {
@@ -393,10 +391,139 @@ html,body {
 }
 .imgC10 img {
   position: absolute; 
-  top: 70%;
+  top: 73%;
   left: 185%;
   transform: translate(-50%, -50%); 
   max-width: 300px; 
   height: auto; 
   border-radius: 15px;
+}
+ /* GTA V */
+ .imgC11 {
+  position: absolute; 
+  width: 795px; 
+  height: 1300px; 
+  margin: 0 auto;
+}
+.imgC11 img {
+  position: absolute; 
+  top: 73%;
+  left: 130%;
+  transform: translate(-50%, -50%); 
+  max-width: 300px; 
+  height: auto; 
+  border-radius: 15px;
+}
+/* elden ring */
+.imgC12 {
+  position: absolute; 
+  width: 795px; 
+  height: 1300px; 
+  margin: 0 auto;
+}
+.imgC12 img {
+  position: absolute; 
+  top: 73%;
+  left: 70%;
+  transform: translate(-50%, -50%); 
+  max-width: 300px; 
+  height: auto; 
+  border-radius: 15px;
+}
+/* Nomes Catalogo  */
+/* stardew-valley */
+.titulo1 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 668px;
+    top: 125px;
+}
+/* red dead2 */
+.titulo2 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 48%;
+    top: 60%;
+}
+/* BALDURS GATE */
+.titulo3 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 51%;
+    top: 101%;
+}
+/* Elden Ring */
+.titulo4 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 53%;
+    top: 142%;
+}
+/* Outlast */
+.titulo5 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 18%;
+    top: 20%;
+}
+/* Alien isolation */
+.titulo6 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 15%;
+    top: 60%;
+}
+/* Valorant */
+.titulo7 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 17%;
+    top: 101%;
+}
+/* GTA V */
+.titulo8 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 12%;
+    top: 141%;
+}
+ /* GOD OF WAR */
+.titulo9 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: -240px;
+    top: 20%;
+}
+/* The last of us part 2 */
+.titulo10 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: -274px;
+    top: 60%;
+}
+/* EURO TRUCK SIMULATOR */
+.titulo11 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: -284px;
+    top: 101%;
+}
+/* GOAT SIMULATOR */
+.titulo12 {
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: -254px;
+    top: 141%;
 }
