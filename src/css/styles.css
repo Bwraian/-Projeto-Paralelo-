@@ -204,35 +204,36 @@ html,body {
  }
  .avnt1 {
   position: absolute; 
-  font-size: 10px;
+  font-size: 15px;
   color: #fff;
-  right: 37%;
-  top: 1400%;
+  left: 620px;
+  top: 95px;
 } 
 
 .avnt2 {
   position: absolute; 
   font-size: 10px;
   color: #fff;
-  right: 64%;
-  top: 200%;
+  left: 1135px;
+  top: 590px
 }
 
 .acao1 {
   position: absolute; 
   font-size: 10px;
   color: #fff;
-  right: 79%;
-  top: 1400%;
+  left: 340px;
+  top: 590px
 }
 
 .tiro1 {
   position: absolute; 
   font-size: 10px;
   color: #fff;
-  right: 76%;
-  top: 1400%;
-} 
+  left: 410px;
+  top: 590px
+}
+
 
 
 /* catalogo  */
@@ -436,94 +437,277 @@ html,body {
   position: absolute; 
   font-size: 10px;
   color: #fff;
-  right: 668px;
-    top: 125px;
+  right: 1235px;
+    top: 290px;
 }
 /* red dead2 */
 .titulo2 {
   position: absolute; 
   font-size: 10px;
   color: #fff;
-  right: 48%;
-    top: 60%;
+  right: 64%;
+    top: 55%;
 }
 /* BALDURS GATE */
 .titulo3 {
   position: absolute; 
   font-size: 10px;
   color: #fff;
-  right: 51%;
-    top: 101%;
+  right: 67%;
+    top: 81%;
 }
 /* Elden Ring */
 .titulo4 {
   position: absolute; 
   font-size: 10px;
   color: #fff;
-  right: 53%;
-    top: 142%;
+  right: 67%;
+    top: 107%;
 }
 /* Outlast */
 .titulo5 {
   position: absolute; 
   font-size: 10px;
   color: #fff;
-  right: 18%;
-    top: 20%;
+  right: 43%;
+    top: 30%;
 }
 /* Alien isolation */
 .titulo6 {
   position: absolute; 
   font-size: 10px;
   color: #fff;
-  right: 15%;
-    top: 60%;
+  right: 41%;
+    top: 55%;
 }
 /* Valorant */
 .titulo7 {
   position: absolute; 
   font-size: 10px;
   color: #fff;
-  right: 17%;
-    top: 101%;
+  right: 42%;
+    top: 81%;
 }
 /* GTA V */
 .titulo8 {
   position: absolute; 
   font-size: 10px;
   color: #fff;
-  right: 12%;
-    top: 141%;
+  right: 39%;
+    top: 107%;
 }
  /* GOD OF WAR */
 .titulo9 {
   position: absolute; 
   font-size: 10px;
   color: #fff;
-  right: -240px;
-    top: 20%;
+  right: 340px;
+    top: 30%;
 }
 /* The last of us part 2 */
 .titulo10 {
   position: absolute; 
   font-size: 10px;
   color: #fff;
-  right: -274px;
-    top: 60%;
+  right: 300px;
+    top: 55%;
 }
 /* EURO TRUCK SIMULATOR */
 .titulo11 {
   position: absolute; 
   font-size: 10px;
   color: #fff;
-  right: -284px;
-    top: 101%;
+  right: 289px;
+    top: 81%;
 }
 /* GOAT SIMULATOR */
 .titulo12 {
   position: absolute; 
   font-size: 10px;
   color: #fff;
-  right: -254px;
-    top: 141%;
+  right: 310px;
+    top: 107%;
 }
+/* Categoria catalogo */
+/* stardew valley */
+.Crpg1{
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 1395px;
+  top: 126px;
+}
+.Cavent1{
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 1285px;
+  top: 126px;
+}
+/* RDR2 */
+.Ctiro1{
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 1400px;
+  top: 366px;
+}
+.Cacao1{
+  position: absolute; 
+  font-size: 9px;
+  color: #fff;
+  right: 1332px;
+  top: 368px;
+}
+/* <!-- BALDURS GATE 3 --> */
+.Crpg2{
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 1400px;
+  top: 616px;
+}
+.Cavent2{
+  position: absolute; 
+  font-size: 9px;
+  color: #fff;
+  right: 1300px;
+  top: 616px;
+}
+/* Elden Ring  */
+.Crpg3{
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 1400px;
+  top: 866px;
+}
+.Cacao2{
+  position: absolute; 
+  font-size: 9px;
+  color: #fff;
+  right: 1334px;
+  top: 868px;
+}
+/* OUTLAST */
+.Cterror1{
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 890px;
+  top: 126px;
+}
+.Cacao3{
+  position: absolute; 
+  font-size: 9px;
+  color: #fff;
+  right: 820px;
+  top: 128px;
+}
+/* Alien Isolation */
+.Cterror2{
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 890px;
+  top: 366px;
+}
+.Ctiro2{
+  position: absolute; 
+  font-size: 9px;
+  color: #fff;
+  right: 830px;
+  top: 368px;
+}
+/* Valorant */
+.Cacao4{
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 895px;
+  top: 618px;
+}
+.Ctiro3{
+  position: absolute; 
+  font-size: 9px;
+  color: #fff;
+  right: 830px;
+  top: 619px;
+}
+/* gta v */
+.Cacao5{
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 895px;
+  top: 868px;
+}
+.Cavent3{
+  position: absolute; 
+  font-size: 9px;
+  color: #fff;
+  right: 780px;
+  top: 868px;
+}
+/* GOD OF WAR  */
+.Cacao6{
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 465px;
+  top: 128px;
+}
+.Cavent4{
+  position: absolute; 
+  font-size: 9px;
+  color: #fff;
+  right: 350px;
+  top: 128px;
+}
+/* THE LAST OF US PART 2 */
+.Ctiro4{
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 465px;
+  top: 368px;
+}
+.Cavent5{
+  position: absolute; 
+  font-size: 9px;
+  color: #fff;
+  right: 350px;
+  top: 368px;
+}
+
+/* EURO TRUCK SIMULATOR  */
+.Csimu1{
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 405px;
+  top: 614px;
+}
+.Cavent6{
+  position: absolute; 
+  font-size: 9px;
+  color: #fff;
+  right: 290px;
+  top: 616px;
+}
+/* GOAT SIMULATOR */
+.Csimu2{
+  position: absolute; 
+  font-size: 10px;
+  color: #fff;
+  right: 405px;
+  top: 864px;
+}
+.Cacao7{
+  position: absolute; 
+  font-size: 9px;
+  color: #fff;
+  right: 340px;
+  top: 864px;
+}
+
