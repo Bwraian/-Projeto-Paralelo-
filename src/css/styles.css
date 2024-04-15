@@ -131,3 +131,24 @@ body {
   height: auto; 
   border-radius: 15px;
 }
+
+.text-stardew-valley {
+  color: #fff;
+  position: absolute;
+  left: 505px;
+  top: 522px;
+}
+
+.text-red-dead2 {
+  color: #fff;
+  position: absolute;
+  left: 330px;
+  top: 824px;
+}
+
+.text-baldurs-gate3 {
+  color: #fff;
+  position: absolute;
+  left: 1071px;
+  top: 824px;
+}
