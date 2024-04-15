@@ -87,7 +87,7 @@ body {
 .img1 {
   position: fixed; 
   width: 500px; 
-  height: 430px; 
+  height: 460px; 
   margin: 0 auto;
 }
 .img1 img {
@@ -95,7 +95,7 @@ body {
   top: 70%;
   left: 185%;
   transform: translate(-50%, -50%); 
-  max-width: 700px; 
+  max-width: 850px; 
   height: auto; 
   border-radius: 15px;
 }
