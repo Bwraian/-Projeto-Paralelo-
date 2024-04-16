@@ -14,6 +14,7 @@ html,body {
   min-height: 100vh;
   
    position: relative;
+  
    background-image: url(/src/images/backgound.png);
    background-size :100%;
 }
@@ -155,6 +156,10 @@ html,body {
   top: 830px;
 }
 
+.conteiner {
+  width: 100%;
+}
+
 .text-baldurs-gate3 {
   font-size: 12px;
   color: #fff;
@@ -188,12 +193,10 @@ html,body {
 }
 
 /* categoria dos jogos */
-.rpg1{
-  font-size: 11px;
-  color: #fff;
+.rpg-{
+ 
   position: absolute;
-  left: 1077px;
-  top: 589px;
+  top: 71px;
 }
  .rpg2{
   font-size: 15px;
@@ -234,480 +237,49 @@ html,body {
   top: 590px
 }
 
+.linha2 {
+  margin: 90px;
+  font-size: 30px;
+  width: 100%;
+}
 
 
 /* catalogo  */
  /* stardew valley */
-.imgC1 {
-  position: absolute; 
-  width: 300px; 
-  height: 300px; 
-  margin: 0 auto;
-}
-.imgC1 img {
-  position: absolute; 
-  top: 70%;
-  left: 185%;
-  transform: translate(-50%, -50%); 
-  max-width: 300px; 
-  height: auto; 
-  border-radius: 15px;
-}
- /* red dead 2 */
-.imgC2 {
-  position:  absolute; 
-  width: 245px; 
-  height: 700px; 
-  margin: 100px;
-}
-.imgC2 img {
-  position: absolute; 
-  top: 50%;
-  left: 185%;
-  transform: translate(-50%, -50%); 
-  max-width: 300px; 
-  height: auto; 
-  border-radius: 15px;
-}
+ .corpo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20%;
+ }
 
+ .menu {
+  width: 300px;
+  height: 500px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+ }
 
-/* baldurs gate3  */
-.imgC3 {
-  position: absolute; 
-  width: 245px; 
-  height: 1200px; 
-  margin: 100px;
-}
-.imgC3 img {
-  position: absolute; 
-  top: 50%;
-  left: 185%;
-  transform: translate(-50%, -50%); 
-  max-width: 300px; 
-  height: auto; 
-  border-radius: 15px;
-}
-/* valorant  */
-.imgC4 {
-  position: absolute; 
-  width: 505px; 
-  height: 1200px; 
-  margin: 100px;
-}
-.imgC4 img {
-  position: absolute; 
-  top: 50%;
-  left: 185%;
-  transform: translate(-50%, -50%); 
-  max-width: 300px; 
-  height: auto; 
-  border-radius: 15px;
-}
-  /* alien isolation */
-.imgC5 {
-  position: absolute; 
-  width: 505px; 
-  height: 700px; 
-  margin: 100px;
-}
-.imgC5 img {
-  position: absolute; 
-  top: 50%;
-  left: 185%;
-  transform: translate(-50%, -50%); 
-  max-width: 300px; 
-  height: auto; 
-  border-radius: 15px;
-}
-/* outlast */
-.imgC6 {
-  position: absolute; 
-  width: 557px; 
-  height: 300px; 
-  margin: 0 auto;
-}
-.imgC6 img {
-  position: absolute; 
-  top: 70%;
-  left: 185%;
-  transform: translate(-50%, -50%); 
-  max-width: 300px; 
-  height: auto; 
-  border-radius: 15px;
-}
-/* God of war  */
-.imgC7 {
-  position: absolute; 
-  width: 795px; 
-  height: 300px; 
-  margin: 0 auto;
-}
-.imgC7 img {
-  position: absolute; 
-  top: 70%;
-  left: 185%;
-  transform: translate(-50%, -50%); 
-  max-width: 300px; 
-  height: auto; 
-  border-radius: 15px;
-}
-/* the last of us 2 */
-.imgC8 {
-  position: absolute; 
-  width: 795px; 
-  height: 645px; 
-  margin: 0 auto;
-}
-.imgC8 img {
-  position: absolute; 
-  top: 70%;
-  left: 185%;
-  transform: translate(-50%, -50%); 
-  max-width: 300px; 
-  height: auto; 
-  border-radius: 15px;
-}
-/* euro truck */
-.imgC9 {
-  position: absolute; 
-  width: 795px; 
-  height: 1000px; 
-  margin: 0 auto;
-}
-.imgC9 img {
-  position: absolute; 
-  top: 70%;
-  left: 185%;
-  transform: translate(-50%, -50%); 
-  max-width: 300px; 
-  height: auto; 
-  border-radius: 15px;
-}
-/* goat simulator */
-.imgC10 {
-  position: absolute; 
-  width: 795px; 
-  height: 1300px; 
-  margin: 0 auto;
-}
-.imgC10 img {
-  position: absolute; 
-  top: 73%;
-  left: 185%;
-  transform: translate(-50%, -50%); 
-  max-width: 300px; 
-  height: auto; 
-  border-radius: 15px;
-}
- /* GTA V */
- .imgC11 {
-  position: absolute; 
-  width: 795px; 
-  height: 1300px; 
-  margin: 0 auto;
-}
-.imgC11 img {
-  position: absolute; 
-  top: 73%;
-  left: 130%;
-  transform: translate(-50%, -50%); 
-  max-width: 300px; 
-  height: auto; 
-  border-radius: 15px;
-}
-/* elden ring */
-.imgC12 {
-  position: absolute; 
-  width: 795px; 
-  height: 1300px; 
-  margin: 0 auto;
-}
-.imgC12 img {
-  position: absolute; 
-  top: 73%;
-  left: 70%;
-  transform: translate(-50%, -50%); 
-  max-width: 300px; 
-  height: auto; 
-  border-radius: 15px;
-}
-/* Nomes Catalogo  */
-/* stardew-valley */
-.titulo1 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 1235px;
-    top: 290px;
-}
-/* red dead2 */
-.titulo2 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 64%;
-    top: 55%;
-}
-/* BALDURS GATE */
-.titulo3 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 67%;
-    top: 81%;
-}
-/* Elden Ring */
-.titulo4 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 67%;
-    top: 107%;
-}
-/* Outlast */
-.titulo5 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 43%;
-    top: 30%;
-}
-/* Alien isolation */
-.titulo6 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 41%;
-    top: 55%;
-}
-/* Valorant */
-.titulo7 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 42%;
-    top: 81%;
-}
-/* GTA V */
-.titulo8 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 39%;
-    top: 107%;
-}
- /* GOD OF WAR */
-.titulo9 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 340px;
-    top: 30%;
-}
-/* The last of us part 2 */
-.titulo10 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 300px;
-    top: 55%;
-}
-/* EURO TRUCK SIMULATOR */
-.titulo11 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 289px;
-    top: 81%;
-}
-/* GOAT SIMULATOR */
-.titulo12 {
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 310px;
-    top: 107%;
-}
-/* Categoria catalogo */
-/* stardew valley */
-.Crpg1{
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 1395px;
-  top: 126px;
-}
-.Cavent1{
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 1285px;
-  top: 126px;
-}
-/* RDR2 */
-.Ctiro1{
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 1400px;
-  top: 366px;
-}
-.Cacao1{
-  position: absolute; 
-  font-size: 9px;
-  color: #fff;
-  right: 1332px;
-  top: 368px;
-}
-/* <!-- BALDURS GATE 3 --> */
-.Crpg2{
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 1400px;
-  top: 616px;
-}
-.Cavent2{
-  position: absolute; 
-  font-size: 9px;
-  color: #fff;
-  right: 1300px;
-  top: 616px;
-}
-/* Elden Ring  */
-.Crpg3{
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 1400px;
-  top: 866px;
-}
-.Cacao2{
-  position: absolute; 
-  font-size: 9px;
-  color: #fff;
-  right: 1334px;
-  top: 868px;
-}
-/* OUTLAST */
-.Cterror1{
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 890px;
-  top: 126px;
-}
-.Cacao3{
-  position: absolute; 
-  font-size: 9px;
-  color: #fff;
-  right: 820px;
-  top: 128px;
-}
-/* Alien Isolation */
-.Cterror2{
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 890px;
-  top: 366px;
-}
-.Ctiro2{
-  position: absolute; 
-  font-size: 9px;
-  color: #fff;
-  right: 830px;
-  top: 368px;
-}
-/* Valorant */
-.Cacao4{
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 895px;
-  top: 618px;
-}
-.Ctiro3{
-  position: absolute; 
-  font-size: 9px;
-  color: #fff;
-  right: 830px;
-  top: 619px;
-}
-/* gta v */
-.Cacao5{
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 895px;
-  top: 868px;
-}
-.Cavent3{
-  position: absolute; 
-  font-size: 9px;
-  color: #fff;
-  right: 780px;
-  top: 868px;
-}
-/* GOD OF WAR  */
-.Cacao6{
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 465px;
-  top: 128px;
-}
-.Cavent4{
-  position: absolute; 
-  font-size: 9px;
-  color: #fff;
-  right: 350px;
-  top: 128px;
-}
-/* THE LAST OF US PART 2 */
-.Ctiro4{
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 465px;
-  top: 368px;
-}
-.Cavent5{
-  position: absolute; 
-  font-size: 9px;
-  color: #fff;
-  right: 350px;
-  top: 368px;
-}
+ .titulo2 {
 
-/* EURO TRUCK SIMULATOR  */
-.Csimu1{
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 405px;
-  top: 614px;
-}
-.Cavent6{
-  position: absolute; 
-  font-size: 9px;
-  color: #fff;
-  right: 290px;
-  top: 616px;
-}
-/* GOAT SIMULATOR */
-.Csimu2{
-  position: absolute; 
-  font-size: 10px;
-  color: #fff;
-  right: 405px;
-  top: 864px;
-}
-.Cacao7{
-  position: absolute; 
-  font-size: 9px;
-  color: #fff;
-  right: 340px;
-  top: 864px;
-}
-
+ }
+ .linha {
+   height: 300px;
+   display: flex;
+   width: 80%;
+   justify-content: space-around;
+ 
+ }
+ .imgC1 img {
+   width: 250px;
+   height: 300px;
+   border-radius: 20%;
+ }
+ .imgC1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
