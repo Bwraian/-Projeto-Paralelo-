@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/css/styles.css">
+    <link rel="stylesheet" href="/pages/catalogo/catalogo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,9 +20,9 @@
         <h2>Paralelo</h2>
         <hr>
         <ul>
-            <li><a href="index.html"><i class="fa-solid fa-house"></i>Inicio</a></li>
-            <li><a href="catalago.html"><i class="fa-solid fa-tag"></i>Catalogo</a></li>
-            <li><a href="categoria.html"><i class="fa-solid fa-list"></i>Categoria</a></li>
+            <li><a href="/index.html"><i class="fa-solid fa-house"></i>Inicio</a></li>
+            <li><a href="/pages/catalogo/catalago.html"><i class="fa-solid fa-tag"></i>Catalogo</a></li>
+            <li><a href="/pages/categoria/categoria.html"><i class="fa-solid fa-list"></i>Categoria</a></li>
             <hr>
         </ul>
     </div>
@@ -34,36 +34,41 @@
         <input class="search-input" type="search">
     </div>
 </form>
+<div>
+    <div>
+        <img src="" alt="">
+    </div>
+</div>
    <div class="corpo">
    <div class="conteiner">
     <div class="linha">
     <div class="imgC1">
-        <div class="rpg-">
+        <div class="rpg-" z-index="1">
           <h3> RPG // AVENTURA</h3>
         </div>  
-        <img src="src/images/img catalogo/cata-stardew valley.jpg" alt="stardew valley" >
-        <div class="titulo2">
+        <!-- <img src="/assets/imgs/stardew valley.jpg" alt="stardew valley" z-index="0"> -->
+        <div class="titulo2" z-index="2" bottom=50%>
             <h3>stardew valley</h3>
         </div>
         
 
 
     </div>
-    <div class="imgC1">
-        <div class="rpg-">
+    <div class="imgC2">
+        <div class="h3">
             <h3>TIRO //AÇAO</h3> 
         </div>  
-        <img src="src/images/img catalogo/cata-Red Dead 2.jpg" alt="red dead 2">
+        <!-- <img src="/assets/imgs/Red Dead 2.jpg" alt="red dead 2"> -->
         <div class="titulo2">
             <h3>Red Dead Redemption 2</h3>
         </div>
     </div>
 
-    <div class="imgC1">
+    <div class="imgC3">
         <div class="rpg-">
             <h3>RPG// AVENTURA</h3> 
         </div>  
-        <img src="src/images/img catalogo/cata-Baldurs gate3.jpg" alt="baldurs gate 3">
+        <!-- <img src="/assets/imgs/baldurs gate3.jpg" alt="baldurs gate 3"> -->
         <div class="titulo2">
             <h3>baldurs Gate3</h3>
         </div>
@@ -71,63 +76,62 @@
     </div>
     <div class="linha">
         
-    <div class="imgC1">
+    <div class="imgC4">
         <div class="rpg-">
             <h3>TIRO  // AÇÃO</h3> 
         </div> 
     
-       <img src="src/images/img catalogo/cata-valorant.jpg" alt="valorant"> 
        <div class="titulo2">
         <h3>Valorant</h3>
     </div >
        
     </div>
-    <div class="imgC1">
+    <div class="imgC5">
         <div class="rpg-">
             <h3>TERROR //TIRO</h3> 
         </div> 
-        <img src="src/images/img catalogo/cata-alien isolation.jpg" alt="alien isolation">
+        <!-- <img src="/assets/imgs/" alt="alien isolation"> -->
         <div class="titulo2">
             <h3>Alien Isolation</h3>
         </div>
     
     </div>
-    <div class="imgC1">
+    <div class="imgC6">
         <div class="rpg-">
             <h3>TERROR /AÇÃO</h3> 
         </div> 
-        <img src="src/images/img catalogo/cata-out last.jpg" alt="outlast">
+        <!-- <img src="/assets/imgs/img catalogo/cata-out last.jpg" alt="outlast"> -->
         <div class="titulo2">
             <h3>Outlast</h3>
         </div>
     </div>
     </div>
     <div class="linha">
-    <div class="imgC1">
+    <div class="imgC7">
         <div class="rpg-">
             <h3>AÇÃO//AVENTURA</h3> 
         </div> 
-        <img src="src/images/img catalogo/cata-god of war.jpg" alt="god of war">
+        <!-- <img src="/assets/imgs/img catalogo/cata-god of war.jpg" alt="god of war"> -->
     <div class="titulo2">
         <h3>God Of War</h3>
     </div>
 
     </div>
-    <div class="imgC1">
+    <div class="imgC8">
         <div class="rpg-">
             <h3>TIRO// AÇÃO</h3> 
         </div> 
-        <img src="src/images/img catalogo/cata-the last of us 2.jpg" alt="the last of us 2">
+        <!-- <img src="/assets/imgs/img catalogo/cata-the last of us 2.jpg" alt="the last of us 2"> -->
         <div class="titulo2">
             <h3>The Last of Us Part 2</h3>
         </div>
     
     </div>
-    <div class="imgC1">
+    <div class="imgC9">
         <div class="rpg-">
             <h3>SIMULADOR // AVENTURA</h3> 
         </div> 
-        <img src="src/images/img catalogo/cata-euro truck.jpg" alt="euro truck">
+        <!-- <img src="/assets/imgs/img catalogo/cata-euro truck.jpg" alt="euro truck"> -->
         <div class="titulo2">
             <h3>Euro Truck Simulator</h3>
         </div>
@@ -135,120 +139,37 @@
     </div>
     </div>
     <div class="linha">
-    <div class="imgC1">
+    <div class="imgC10">
         <div class="rpg-">
             <h3>SIMULADOR // AVENTURA</h3> 
         </div> 
-        <img src="src/images/img catalogo/cata-goat simulator.jpg" alt="goat simulator">
+        <!-- <img src="/assets/imgs/img catalogo/cata-goat simulator.jpg" alt="goat simulator"> -->
         <div class="titulo2">
             <h3>Goat Simulator</h3>
         </div>
     
     </div>
-    <div class="imgC1">
+    <div class="imgC11">
         <div class="rpg-">
             <h3>TIRO //AÇÃO</h3> 
         </div> 
-        <img src="src/images/img catalogo/cata-gta v.jpg" alt="GTA v">
+        <!-- <img src="/assets/imgs/img catalogo/cata-gta v.jpg" alt="GTA v"> -->
         <div class="titulo2">
             <h3>Gradn Thefh Auto V</h3>
         </div>
     
     </div>
-    <div class="imgC1">
+    <div class="imgC12">
         <div class="rpg-">
             <h3>RPG //AVENTURA</h3> 
         </div> 
-        <img src="src/images/img catalogo/cata-elden ring.jpg" alt="elden ring">
+        <!-- <img src="/assets/imgs/img catalogo/cata-elden ring.jpg" alt="elden ring"> -->
         <div class="titulo2">
             <h3>Elden Ring</h3>
         </div>
     
     </div>
     </div>
-    <!-- TITULOS -->
-
-
-    <!-- Categorias -->
-
-    <!-- <div class="categoria">
-    <div class="Crpg1">
-        <h1>RPG</h1>
-    </div>
-    <div class="Cavent1">
-        <h1>Aventura</h1>
-    </div>
-      <div class="Ctiro1">
-        <h1>Tiro</h1>
-    </div>
-    <div class="Cacao1">
-        <h1>AÇÃO
-        </h1>
-    </div>
-    BALDURS GATE 3
-    <div class="Crpg2">
-        <h1>RPG</h1>
-    </div>
-    <div class="Cavent2">
-        <h1>Aventura</h1>
-    </div>
-    <div class="Crpg3">
-        <h1>RPG</h1>
-    </div>
-    <div class="Cacao2">
-        <h1>AÇÃO</h1>
-    </div>
-      <div class="Cterror1">
-        <h1>TERROR</h1>
-    </div>
-    <div class="Cacao3">
-        <h1>AÇÃO</h1>
-    </div>
-    <div class="Cterror2">
-        <h1>TERROR</h1>
-    </div>
-    <div class="Ctiro2">
-        <h1>TIRO</h1>
-    </div>
-    <div class="Cacao4">
-        <h1>AÇÃO</h1>
-    </div>
-    <div class="Ctiro3">
-        <h1>TIRO</h1>
-    </div>
-    <div class="Cacao5">
-        <h1>AÇÃO</h1>
-    </div>
-    <div class="Cavent3">
-        <h1>AVENTURA</h1>
-    </div>
-    <div class="Cacao6">
-        <h1>AÇÃO</h1>
-    </div>
-    <div class="Cavent4">
-        <h1>AVENTURA</h1>
-    </div>
-    <div class="Ctiro4">
-        <h1>TIRO</h1>
-    </div>
-    <div class="Cavent5">
-        <h1>AVENTURA</h1>
-    </div>
-    <div class="Csimu1">
-        <h1>SIMULADOR</h1>
-    </div>
-    <div class="Cavent6">
-        <h1>AVENTURA</h1>
-    </div>
-    <div class="Csimu2">
-        <h1>SIMULADOR</h1>
-    </div>
-    <div class="Cacao7">
-        <h1>AÇÃO</h1>
-    </div>
-    </div> -->
-    </div>
-    <!--search bar-->
     <form>
     </div>
 </body>
