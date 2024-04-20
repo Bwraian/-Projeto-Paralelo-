@@ -113,15 +113,17 @@ html,body {
   justify-content: center;
  }
 
- .titulo2 { background-color: rgba(3, 3, 3, 0.726); /* Cor de fundo (preto com 10% de transparência) */
+ .titulo2 {/* Cor de fundo (preto com 10% de transparência) */
   padding: 0px;
   border-style: none;
   text-align-last: center;
   text-decoration: none;
+  
+ 
  }
 
 .titulo2 p {
-  color: #fff !important;
+  color: #fff !important ;
 }
  .linha {
    height: 400px;
@@ -172,7 +174,7 @@ html,body {
  border-radius: 10%;
  width: 350px;
  height: 247px;
- background-image: url("/assets/imgs/stardew\ valley.jpg");
+ background-image: url("/assets/imgs/img\ categoria/RPG.jpg");
  flex-direction: column;
  align-items: space-between;
  justify-content: space-between;
@@ -183,9 +185,12 @@ html,body {
 .imgC1 h3 {
  -webkit-text-stroke-width: 1px;
  -webkit-text-stroke-color: black;
- color: #fff;
- margin-top: 10px;
- margin-left: 10px;
+ color: #fff !important ;
+ margin-top: -160px;
+ margin-left: -50px;
+ position: absolute;
+ font-size: 350%;
+ 
 }
 
 /* Red dead 2  */
@@ -195,7 +200,7 @@ display: flex;
 border-radius: 10%;
 width: 350px;
 height: 247px;
-background-image: url("/assets/imgs/Red\ Dead\ 2.jpg");
+background-image: url("/assets/imgs/img\ categoria/ação.jpg");
 flex-direction: column;
 align-items: space-between;
 justify-content: space-between;
@@ -203,11 +208,13 @@ background-repeat: no-repeat, no-repeat;
 background-size: 350px 300px;
 }
 .imgC2 h3 {
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: black;
-color: #fff;
-margin-top: 10px;
-margin-left: 10px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: #fff !important ;
+  margin-top: -160px;
+  margin-left: 85px;
+  position: absolute;
+  font-size: 350%;
 }
 /* baldurs gate 3 */
 
@@ -216,7 +223,7 @@ display: flex;
 border-radius: 10%;
 width: 350px;
 height: 247px;
-background-image: url("/assets/imgs/baldurs\ gate3.jpg");
+background-image: url("/assets/imgs/img\ categoria/aventura.jpg");
 flex-direction: column;
 align-items: space-between;
 justify-content: space-between;
@@ -224,11 +231,13 @@ background-repeat: no-repeat, no-repeat;
 background-size: 350px 300px;
 }
 .imgC3 h3 {
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: black;
-color: #fff;
-margin-top: 10px;
-margin-left: 10px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: #fff !important ;
+  margin-top: -160px;
+  margin-left: 27px;
+  position: absolute;
+  font-size: 350%;
 }
 /* VALORANT */
 
@@ -237,7 +246,7 @@ display: flex;
 border-radius: 10%;
 width: 350px;
 height: 247px;
-background-image: url("/assets/imgs/valorant.jpg");
+background-image: url("/assets/imgs/img\ categoria/simulador.jpg");
 flex-direction: column;
 align-items: space-between;
 justify-content: space-between;
@@ -245,11 +254,13 @@ background-repeat: no-repeat, no-repeat;
 background-size: 350px 300px;
 }
 .imgC4 h3 {
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: black;
-color: #fff;
-margin-top: 10px;
-margin-left: 10px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: #fff !important ;
+  margin-top: -160px;
+  margin-left: 10px;
+  position: absolute;
+  font-size: 350%;
 }
 /* ALIEN ISOLATION */
 
@@ -258,7 +269,7 @@ display: flex;
 border-radius: 10%;
 width: 350px;
 height: 247px;
-background-image: url("/assets/imgs/alien\ isolation.jpg");
+background-image: url("/assets/imgs/img\ categoria/tiro.jpg");
 flex-direction: column;
 align-items: space-between;
 justify-content: space-between;
@@ -266,11 +277,13 @@ background-repeat: no-repeat, no-repeat;
 background-size: 350px 300px;
 }
 .imgC5 h3 {
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: black;
-color: #fff;
-margin-top: 10px;
-margin-left: 10px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: #fff !important ;
+  margin-top: -160px;
+  margin-left: 110px;
+  position: absolute;
+  font-size: 350%;
 }
 /* OUTLAST */
 
@@ -279,10 +292,19 @@ display: flex;
 border-radius: 10%;
 width: 350px;
 height: 247px;
-background-image: url("/assets/imgs/out\ last.jpg");
+background-image: url("/assets/imgs/img\ categoria/terror.jpg");
 flex-direction: column;
 align-items: space-between;
 justify-content: space-between;
 background-repeat: no-repeat, no-repeat;
 background-size: 350px 300px;
+}
+.imgC6 h3 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: #fff !important ;
+  margin-top: -160px;
+  margin-left: 70px;
+  position: absolute;
+  font-size: 350%;
 }
