@@ -95,7 +95,7 @@ body {
     display: flex;
 }
 .vid1 video {
-    position: absolute;
+    position: relative;
     top: 46%;
     left: 35%;
     transform: translate(-50%, -50%);
@@ -122,7 +122,8 @@ textarea {
   border-radius: 5px;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px #535050;
-  background: #2f30309a;
+  background: #5e63639a;
+  color: #fff;
   
   
 }
@@ -136,7 +137,8 @@ label {
   left: 1340px;
   border: 1px solid #fafafa3b;
   -webkit-text-stroke-width: px;
-  -webkit-text-stroke-color: rgb(14, 18, 20);
+  -webkit-text-stroke-color: rgb(199, 201, 202);
+  color: #fff;
 }
 .conteirer{
     width: 100%;
@@ -155,8 +157,8 @@ label {
     display: flex;
     position: absolute;
     top: 120px;
-    right: 290px ;
-    
+    right: 340px ;
+    color: #fff;
 }
 .valor{
     position: relative;
@@ -165,14 +167,16 @@ label {
     background: #4b4a4a98;
     max-width: 155px;
     font-size: 30px;
+color: #fff;
 }
 .catg{
     position: relative;
     top: 507px;
-    left: 470px;
+    left: 510px;
     background: #4b4a4a98;
     max-width: 313px;
     font-size: 30px;
+    color: #fff;
 }
 
 
