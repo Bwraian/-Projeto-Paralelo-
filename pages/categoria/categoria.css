@@ -17,6 +17,7 @@ html,body {
   
    background-image: url(/assets/imgs/backgound.png);
    background-size :100%;
+   background-attachment: fixed;
 }
 
 
