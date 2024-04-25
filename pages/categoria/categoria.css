@@ -7,7 +7,6 @@
   list-style: none;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
-
 }
 
 html,
@@ -20,7 +19,6 @@ body {
   background-size: 100%;
   background-attachment: fixed;
 }
-
 
 .wrapper {
   display: flex;
@@ -93,9 +91,6 @@ body {
   color: #fff;
 }
 
-
-
-
 /* catalogo  */
 /* stardew valley */
 .corpo {
@@ -121,8 +116,6 @@ body {
   border-style: none;
   text-align-last: center;
   text-decoration: none;
-
-
 }
 
 .titulo2 p {
@@ -134,8 +127,6 @@ body {
   display: flex;
   width: 90%;
   justify-content: space-around;
-
-
 }
 
 .imgC1 img {
@@ -145,14 +136,13 @@ body {
 }
 
 .imgC1 {
-
   flex-direction: column;
   align-items: center;
 }
 
 .conteiner {
   width: 100%;
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 /* CATEGORIA */
@@ -163,14 +153,13 @@ body {
 }
 
 .imgCC1 {
-
   flex-direction: column;
   align-items: center;
 }
 
 .conteiner2 {
   width: 100%;
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 /* Stardew valley */
@@ -201,7 +190,6 @@ body {
   margin-left: -50px;
   position: absolute;
   font-size: 350%;
-
 }
 
 /* Red dead 2  */
