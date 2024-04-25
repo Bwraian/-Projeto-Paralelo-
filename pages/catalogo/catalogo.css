@@ -9,7 +9,8 @@
     font-family: "Poppins", sans-serif;
 }
 
-html,body {
+html,
+body {
     min-height: 100vh;
     position: relative;
     background-image: url(/assets/imgs/backgound.png);

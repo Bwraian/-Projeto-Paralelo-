@@ -87,13 +87,14 @@ body {
     color: #fff;
 }
 
-.vid1{
+.vid1 {
     position: relative;
     width: 400px;
     height: 460px;
     margin: 0 auto;
     display: flex;
 }
+
 .vid1 video {
     position: relative;
     top: 46%;
@@ -107,45 +108,46 @@ body {
 
 label,
 textarea {
-  font-size: 0.8rem;
-  letter-spacing: 1px;
- position: absolute;
- left: 1310px;
- top: 330px;
- 
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 1310px;
+    top: 330px;
+
 }
 
 textarea {
-  padding: 10px;
-  max-width: 40%;
-  line-height: 1.5;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  box-shadow: 1px 1px 1px #535050;
-  background: #5e63639a;
-  color: #fff;
-  
-  
+    padding: 10px;
+    max-width: 40%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #535050;
+    background: #5e63639a;
+    color: #fff;
+
+
 }
 
 label {
-  
- position: absolute;
-  font-size: 25px;
- background: #4b4a4a98;
-  top: 270px;
-  left: 1340px;
-  border: 1px solid #fafafa3b;
-  -webkit-text-stroke-width: px;
-  -webkit-text-stroke-color: rgb(199, 201, 202);
-  color: #fff;
-}
-.conteirer{
-    width: 100%;
-  margin-top: 20px
+
+    position: absolute;
+    font-size: 25px;
+    background: #4b4a4a98;
+    top: 270px;
+    left: 1340px;
+    border: 1px solid #fafafa3b;
+    -webkit-text-stroke-width: px;
+    -webkit-text-stroke-color: rgb(199, 201, 202);
+    color: #fff;
 }
 
-.idade{
+.conteirer {
+    width: 100%;
+    margin-top: 20px
+}
+
+.idade {
     display: flex;
     margin-bottom: 4px;
     position: absolute;
@@ -153,23 +155,25 @@ label {
     left: 1310px;
 }
 
-.texto{
+.texto {
     display: flex;
     position: absolute;
     top: 120px;
-    right: 340px ;
+    right: 340px;
     color: #fff;
 }
-.valor{
+
+.valor {
     position: relative;
     top: 560px;
     left: 1140px;
     background: #4b4a4a98;
     max-width: 155px;
     font-size: 30px;
-color: #fff;
+    color: #fff;
 }
-.catg{
+
+.catg {
     position: relative;
     top: 507px;
     left: 510px;
@@ -178,5 +182,3 @@ color: #fff;
     font-size: 30px;
     color: #fff;
 }
-
-
