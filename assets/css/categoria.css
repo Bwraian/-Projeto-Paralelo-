@@ -92,11 +92,10 @@ body {
   color: #fff;
 }
 
-
-
-
 /* catalogo  */
+
 /* stardew valley */
+
 .corpo {
   display: flex;
   flex-direction: row;
@@ -120,8 +119,6 @@ body {
   border-style: none;
   text-align-last: center;
   text-decoration: none;
-
-
 }
 
 .titulo2 p {
@@ -133,8 +130,6 @@ body {
   display: flex;
   width: 90%;
   justify-content: space-around;
-
-
 }
 
 .imgC1 img {
@@ -155,6 +150,7 @@ body {
 }
 
 /* CATEGORIA */
+
 .imgCC1 img {
   width: 350px;
   height: 300px;
@@ -172,7 +168,8 @@ body {
   margin-top: 20px
 }
 
-/* Stardew valley */
+/* RPG */
+
 .imgC1 img {
   width: 350px;
   height: 300px;
@@ -203,32 +200,7 @@ body {
 
 }
 
-/* Red dead 2  */
-
-.imgC2 {
-  display: flex;
-  border-radius: 10%;
-  width: 350px;
-  height: 247px;
-  background-image: url("/assets/imgs/img\ categoria/ação.jpg");
-  flex-direction: column;
-  align-items: space-between;
-  justify-content: space-between;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 350px 300px;
-}
-
-.imgC2 h3 {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  color: #fff !important;
-  margin-top: -160px;
-  margin-left: 85px;
-  position: absolute;
-  font-size: 350%;
-}
-
-/* baldurs gate 3 */
+/* AVENTURA */
 
 .imgC3 {
   display: flex;
@@ -253,7 +225,7 @@ body {
   font-size: 350%;
 }
 
-/* VALORANT */
+/* SIMULADOR */
 
 .imgC4 {
   display: flex;
@@ -278,7 +250,7 @@ body {
   font-size: 350%;
 }
 
-/* ALIEN ISOLATION */
+/* TIRO */
 
 .imgC5 {
   display: flex;
@@ -303,7 +275,7 @@ body {
   font-size: 350%;
 }
 
-/* OUTLAST */
+/* TERROR */
 
 .imgC6 {
   display: flex;

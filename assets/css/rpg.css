@@ -55,36 +55,30 @@ body {
     display: flex;
     width: 100%;
     margin-top: 20px;
-
-
 }
 
 .linha {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-
-
-
 }
+
 #LOGO {
     width: 30%;
     order: 1;
 }
 
-
 .navbar {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-  
     margin: 0 auto;
 }
-/* catalogo  */
-/* MENU */
 
 /* JOGOS */
+
 /* Stardew valley */
+
 .imgC1 img {
     width: 350px;
     height: 300px;
@@ -113,7 +107,8 @@ body {
     margin-left: 10px;
 }
 
-/* Red dead 2 */
+/* Baldurs Gate3 */
+
 .imgC2 {
     display: flex;
     border-radius: 10%;
@@ -136,7 +131,8 @@ body {
     margin-left: 10px;
 }
 
-/* baldurs gate 3 */
+/* Elden Ring */
+
 .imgC3 {
     display: flex;
     border-radius: 10%;
