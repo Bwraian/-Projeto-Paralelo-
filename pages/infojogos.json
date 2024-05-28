@@ -1,0 +1,98 @@
+{
+    "jogo01": {
+        "title": "Stardew Valley",
+        "image": "",
+        "video": "/assets/trailers/Stardew Valley Trailer.mp4",
+        "description": "Descrição do Jogo 1",
+        "rating": "Classificação: 18+",
+        "genre": "RPG"
+    },
+    "jogo02": {
+        "title": "Red Dead 2",
+        "image": "",
+        "video": "/assets/trailers/Red Dead Redemption 2 Trailer.mp4",
+        "description": "Descrição do Jogo 2",
+        "rating": "Classificação: 12+",
+        "genre": "Tiro"
+    },
+    "jogo03": {
+        "title": "Baldurs Gate III",
+        "image": "",
+        "video": "/assets/trailers/Baldur's Gate 3_ Launch Trailer.mp4",
+        "description": "Descrição do Jogo 2",
+        "rating": "Classificação: 12+",
+        "genre": "RPG"
+    },
+    "jogo04": {
+        "title": "Valorant",
+        "image": "",
+        "video": "/assets/trailers/VALORANT.mp4",
+        "description": "Descrição do Jogo 2",
+        "rating": "Classificação: 14+",
+        "genre": "Tiro"
+    },
+    "jogo05": {
+        "title": "Alien Isolation",
+        "image": "",
+        "video": "/assets/trailers/Alien_ Isolation - Launch Trailer.mp4",
+        "description": "Descrição do Jogo 2",
+        "rating": "Classificação: 12+",
+        "genre": "Terror"
+    },
+    "jogo06": {
+        "title": "OUTLAST",
+        "image": "",
+        "video": "/assets/trailers/Outlast - Official Trailer.mp4",
+        "description": "Descrição do Jogo 2",
+        "rating": "Classificação: 12+",
+        "genre": "Terror"
+    },
+    "jogo07": {
+        "title": "God Of War",
+        "image": "",
+        "video": "/assets/trailers/God of War.mp4",
+        "description": "Descrição do Jogo 2",
+        "rating": "Classificação: 12+",
+        "genre": "Aventura"
+    },
+    "jogo08": {
+        "title": "The Last Of Us Part II",
+        "image": "",
+        "video": "/assets/trailers/The last of us part II.mp4",
+        "description": "Descrição do Jogo 2",
+        "rating": "Classificação: 12+",
+        "genre": "Aventura"
+    },
+    "jogo09": {
+        "title": "Euro Truck Simulator",
+        "image": "",
+        "video": "/assets/trailers/Euro Truck Simulator.mp4",
+        "description": "Descrição do Jogo 2",
+        "rating": "Classificação: 12+",
+        "genre": "Simulador"
+    },
+    "jogo10": {
+        "title": "Goat Simulator",
+        "image": "",
+        "video": "/assets/trailers/Goat Simulator.mp4",
+        "description": "Descrição do Jogo 2",
+        "rating": "Classificação: 12+",
+        "genre": "Simulador"
+    },
+    "jogo11": {
+        "title": "Grad Theft Auto V",
+        "image": "",
+        "video": "/assets/trailers/Grand Theft Auto V.mp4",
+        "description": "Descrição do Jogo 2",
+        "rating": "Classificação: 12+",
+        "genre": "Tiro"
+    },
+    "jogo12": {
+        "title": "Elden Ring",
+        "image": "",
+        "video": "/assets/trailers/ELDEN RING Official.mp4",
+        "description": "Descrição do Jogo 2",
+        "rating": "Classificação: 12+",
+        "genre": "RPG"
+    }
+}

@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  min-height: 100vh;
+  position: relative;
+  background-image: url(/assets/imgs/backgound.png);
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.sidebar {
+<<<<<<< HEAD
+    position: fixed;
+    width: 210px;
+    height: 100%;
+    background-color: #000000;
+    padding: 30px 25px;
+    opacity: 0.7;
+
+=======
+  position: fixed;
+  width: 210px;
+  height: 100%;
+  background-color: #000000;
+  padding: 30px 25px;
+  opacity: 0.7;
+  border-radius: 15px;
+>>>>>>> 974b8d433330d299243ee6e4a839b31787c25ccc
+}
+
+.sidebar h2 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar ul li {
+  padding: 15px;
+}
+
+.sidebar ul li a {
+  color: #ffffff;
+  display: block;
+}
+
+.sidebar ul li a i {
+  width: 25px;
+}
+
+.search {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 28px;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
+  transition: background 0.25s;
+  margin: 1px 750px;
+}
+
+.search:focus-within {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.search input {
+  font-size: 16px;
+  color: #fff;
+  margin-left: 14px;
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 300px;
+}
+
+.search input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.search-icon {
+  color: #fff;
+}
+
+/* Imagens inicio */
+
+.img1 {
+  position: absolute;
+  width: 500px;
+  height: 460px;
+  margin: 0 auto;
+}
+
+.img1 img {
+  position: absolute;
+  top: 70%;
+  left: 185%;
+  transform: translate(-50%, -50%);
+  max-width: 850px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.img2 {
+  position: absolute;
+  width: 250px;
+  height: 1250px;
+  margin: 100px;
+}
+
+.img2 img {
+  position: absolute;
+  top: 50%;
+  left: 185%;
+  transform: translate(-50%, -50%);
+  max-width: 485px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.img3 {
+  position: absolute;
+  width: 650px;
+  height: 1250px;
+  margin: 100px;
+}
+
+.img3 img {
+  position: absolute;
+  top: 50%;
+  left: 185%;
+  transform: translate(-50%, -50%);
+  max-width: 485px;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* Texto Inicio */
+
+.text-stardew-valley {
+  font-size: 12px;
+  color: #fff;
+  position: absolute;
+  left: 509px;
+  top: 530px;
+}
+
+.text-red-dead2 {
+  font-size: 12px;
+  color: #fff;
+  position: absolute;
+  left: 330px;
+  top: 830px;
+}
+
+.text-baldurs-gate3 {
+  font-size: 12px;
+  color: #fff;
+  position: absolute;
+  left: 1070px;
+  top: 830px;
+}
+
+/* preco jogo inicio */
+
+.preco-stardew-valley {
+  font-size: 11px;
+  color: #fff;
+  position: absolute;
+  left: 1246px;
+  top: 532px;
+}
+
+.preco-red-dead2 {
+  font-size: 11px;
+  color: #fff;
+  position: absolute;
+  left: 695px;
+  top: 832px;
+}
+
+.preco-baldurs-gate3 {
+  font-size: 11px;
+  color: #fff;
+  position: absolute;
+  left: 1432px;
+  top: 832px;
+}
+
+/* categoria dos jogos */
+
+.rpg-1 {
+  background-color: rgba(3, 3, 3, 0.712);
+  padding: 2px;
+  text-align-last: center;
+  border-style: double;
+  color: #fff;
+}
+
+.rpg1 {
+  font-size: 10px;
+  color: #fff;
+  position: absolute;
+  left: 1080px;
+  top: 590px;
+}
+
+.rpg2 {
+  font-size: 15px;
+  color: #fff;
+  position: absolute;
+  left: 530px;
+  top: 95px;
+}
+
+.avnt1 {
+  position: absolute;
+  font-size: 15px;
+  color: #fff;
+  left: 620px;
+  top: 95px;
+}
+
+.avnt2 {
+  position: absolute;
+  font-size: 10px;
+  color: #fff;
+  left: 1135px;
+  top: 590px;
+}
+
+.acao1 {
+  position: absolute;
+  font-size: 10px;
+  color: #fff;
+  left: 340px;
+  top: 590px;
+}
+
+.tiro1 {
+  position: absolute;
+  font-size: 10px;
+  color: #fff;
+  left: 410px;
+  top: 590px;
+}
+
+.linha2 {
+<<<<<<< HEAD
+    margin: 90px;
+    font-size: 30px;
+    width: 100%;
+}
+=======
+  margin: 90px;
+  font-size: 30px;
+  width: 100%;
+}
+>>>>>>> 974b8d433330d299243ee6e4a839b31787c25ccc
