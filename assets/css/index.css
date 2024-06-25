@@ -16,8 +16,6 @@ body {
   background-image: url(/assets/imgs/backgound.png);
   background-size: 100%;
   background-attachment: fixed;
-  
-
 }
 
 main {
@@ -32,9 +30,8 @@ main {
   align-content: center;
   justify-content: center;
   font-size: x-large;
-  
 }
-.categoria3{
+.categoria3 {
   position: absolute;
   top: 10%;
   left: 23%;
@@ -43,10 +40,9 @@ main {
   text-shadow: 1px 1px 1px #000000;
   font-size: x-large;
   color: #fff;
-
 }
 
-.preco3{
+.preco3 {
   position: absolute;
   bottom: 20%;
   right: 23%;
@@ -55,7 +51,6 @@ main {
   text-shadow: 1px 1px 1px #000000;
   font-size: x-large;
   color: #fff;
-
 }
 
 span {
@@ -66,7 +61,6 @@ img {
   box-shadow: 0 1px 2px #0003;
   width: 60%;
   border-radius: 10%;
-  
 }
 
 .swiper {
@@ -98,7 +92,6 @@ img {
   background-color: #000000;
   padding: 30px 25px;
   opacity: 0.7;
-
 }
 
 .sidebar h2 {
@@ -156,8 +149,8 @@ img {
 }
 
 /* Imagens inicio */
-.conteiner{
-  top: 50%;
+.conteiner {
+  top: 40%;
   right: 25%;
   width: 300px;
   margin: auto;
@@ -165,26 +158,26 @@ img {
   color: #fff;
 }
 
-.conteiner img{
+.conteiner img {
   width: 190%;
   border-radius: 10%;
 }
 
-.conteiner2{
-  top: 16%;
-  left: 15%;
+.conteiner2 {
+  top: 40%;
+  right: 70%;
   width: 300px;
   margin: auto;
   position: relative;
   color: #fff;
 }
 
-.conteiner2 img{
+.conteiner2 img {
   width: 190%;
   border-radius: 10%;
 }
 
-.nome1{
+.nome1 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -193,7 +186,8 @@ img {
   text-shadow: 1px 1px 1px #000000;
   font-size: x-large;
 }
-.preco1{ position: absolute;
+.preco1 {
+  position: absolute;
   bottom: 0;
   left: 150%;
   text-align: center;
@@ -201,14 +195,13 @@ img {
   text-shadow: 1px 1px 1px #000000;
   font-size: x-large;
 }
-  
-  .categoria1{ 
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-align: center;
-    padding: 10px;
-    text-shadow: 1px 1px 1px #000000;
-    font-size: x-large;
-    
-  }
+
+.categoria1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 1px 1px 1px #000000;
+  font-size: x-large;
+}
