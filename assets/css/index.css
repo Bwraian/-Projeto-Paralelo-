@@ -205,3 +205,13 @@ img {
   text-shadow: 1px 1px 1px #000000;
   font-size: x-large;
 }
+
+/* Botões de Navegação */
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+  color: #fff; /* Mude essa cor para a desejada */
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background: #fff; /* Mude essa cor para a desejada para o bullet ativo */
+}
