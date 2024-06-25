@@ -18,7 +18,42 @@ body {
     background-attachment: fixed;
 }
 
-.search {
+.wrapper {
+    display: flex;
+    position: relative;
+  }
+  
+  .sidebar {
+    position: fixed;
+    width: 210px;
+    height: 100%;
+    background-color: #000000;
+    padding: 30px 25px;
+    opacity: 0.7;
+  
+  }
+  
+  .sidebar h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar ul li {
+    padding: 15px;
+  }
+  
+  .sidebar ul li a {
+    color: #ffffff;
+    display: block;
+  }
+  
+  .sidebar ul li a i {
+    width: 25px;
+  }
+  
+  .search {
     width: max-content;
     display: flex;
     align-items: center;
@@ -27,30 +62,30 @@ body {
     background: rgba(0, 0, 0, 0.5);
     opacity: 0.9;
     transition: background 0.25s;
-    margin: 20px 20px 20px;
-}
-
-.search:focus-within {
+    margin: 1px 750px;
+  }
+  
+  .search:focus-within {
     background: rgba(0, 0, 0, 0.5);
-}
-
-.search input {
+  }
+  
+  .search input {
     font-size: 16px;
     color: #fff;
+    margin-left: 14px;
     outline: none;
     border: none;
     background: transparent;
     width: 300px;
-}
-
-.search input::placeholder {
+  }
+  
+  .search input::placeholder {
     color: rgba(0, 0, 0, 0.5);
-}
-
-.search-icon {
+  }
+  
+  .search-icon {
     color: #fff;
-}
-
+  }
 .conteiner {
     display: flex;
     width: 100%;
@@ -153,4 +188,5 @@ body {
     color: #fff;
     margin-top: 10px;
     margin-left: 10px;
+    
 }

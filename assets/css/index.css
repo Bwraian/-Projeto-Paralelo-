@@ -12,11 +12,78 @@
 html,
 body {
   min-height: 100vh;
-  position: relative;
+  display: flex;
   background-image: url(/assets/imgs/backgound.png);
   background-size: 100%;
   background-attachment: fixed;
+  
 
+}
+
+main {
+  position: absolute;
+  left: 25%;
+  bottom: 21%;
+  height: 100vh;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  font-size: x-large;
+  
+}
+.categoria3{
+  position: absolute;
+  top: 10%;
+  left: 23%;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 1px 1px 1px #000000;
+  font-size: x-large;
+  color: #fff;
+
+}
+
+.preco3{
+  position: absolute;
+  bottom: 20%;
+  right: 23%;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 1px 1px 1px #000000;
+  font-size: x-large;
+  color: #fff;
+
+}
+
+span {
+  font-size: x-large;
+}
+
+img {
+  box-shadow: 0 1px 2px #0003;
+  width: 60%;
+  border-radius: 10%;
+  
+}
+
+.swiper {
+  height: 500px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .swiper {
+    height: 270px;
+  }
 }
 
 .wrapper {
@@ -89,144 +156,59 @@ body {
 }
 
 /* Imagens inicio */
-
-.img1 {
-  position: absolute;
-  width: 500px;
-  height: 460px;
-  margin: 0 auto;
-}
-
-.img1 img {
-  position: absolute;
-  top: 70%;
-  left: 185%;
-  transform: translate(-50%, -50%);
-  max-width: 850px;
-  height: auto;
-  border-radius: 15px;
-}
-
-.img2 {
-  position: absolute;
-  width: 250px;
-  height: 1250px;
-  margin: 100px;
-}
-
-.img2 img {
-  position: absolute;
+.conteiner{
   top: 50%;
-  left: 185%;
-  transform: translate(-50%, -50%);
-  max-width: 485px;
-  height: auto;
-  border-radius: 15px;
-}
-
-.img3 {
-  position: absolute;
-  width: 650px;
-  height: 1250px;
-  margin: 100px;
-}
-
-.img3 img {
-  position: absolute;
-  top: 50%;
-  left: 185%;
-  transform: translate(-50%, -50%);
-  max-width: 485px;
-  height: auto;
-  border-radius: 15px;
-}
-
-/* preco jogo inicio */
-
-.preco-stardew-valley {
-  font-size: 11px;
-  color: #fff;
-  position: absolute;
-  left: 1246px;
-  top: 532px;
-}
-
-.preco-red-dead2 {
-  font-size: 11px;
-  color: #fff;
-  position: absolute;
-  left: 695px;
-  top: 832px;
-}
-
-.preco-baldurs-gate3 {
-  font-size: 11px;
-  color: #fff;
-  position: absolute;
-  left: 1432px;
-  top: 832px;
-}
-
-/* categoria dos jogos */
-
-.rpg-1 {
-  background-color: rgba(3, 3, 3, 0.712);
-  padding: 2px;
-  text-align-last: center;
-  border-style: double;
+  right: 25%;
+  width: 300px;
+  margin: auto;
+  position: relative;
   color: #fff;
 }
 
-.rpg1 {
-  font-size: 10px;
-  color: #fff;
-  position: absolute;
-  left: 1080px;
-  top: 590px;
+.conteiner img{
+  width: 190%;
+  border-radius: 10%;
 }
 
-.rpg2 {
-  font-size: 15px;
+.conteiner2{
+  top: 16%;
+  left: 15%;
+  width: 300px;
+  margin: auto;
+  position: relative;
   color: #fff;
-  position: absolute;
-  left: 530px;
-  top: 95px;
 }
 
-.avnt1 {
-  position: absolute;
-  font-size: 15px;
-  color: #fff;
-  left: 620px;
-  top: 95px;
+.conteiner2 img{
+  width: 190%;
+  border-radius: 10%;
 }
 
-.avnt2 {
+.nome1{
   position: absolute;
-  font-size: 10px;
-  color: #fff;
-  left: 1135px;
-  top: 590px;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 1px 1px 1px #000000;
+  font-size: x-large;
 }
-
-.acao1 {
-  position: absolute;
-  font-size: 10px;
-  color: #fff;
-  left: 340px;
-  top: 590px;
+.preco1{ position: absolute;
+  bottom: 0;
+  left: 150%;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 1px 1px 1px #000000;
+  font-size: x-large;
 }
-
-.tiro1 {
-  position: absolute;
-  font-size: 10px;
-  color: #fff;
-  left: 410px;
-  top: 590px;
-}
-
-.linha2 {
-  margin: 90px;
-  font-size: 30px;
-  width: 100%;
-}
+  
+  .categoria1{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: x-large;
+    
+  }

@@ -1,8 +1,11 @@
 /* styles.css */
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    background-image: url(/assets/imgs/backgound.png);
+    background-size: 100%;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
     display: flex;
@@ -13,25 +16,29 @@ body {
 }
 
 #game-container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
+     padding: 0px;
+    max-width: 800px;
     width: 100%;
     text-align: center;
+    color: #fff;
 }
 
 #game-title {
-    font-size: 24px;
+    color: #fff;
+    font-size: 34px;
     margin-bottom: 10px;
+    text-shadow: 1px 1px 1px  black;
 }
 
 #game-image {
-    width: 80%;
+    width: 5%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 10px;
+    position: absolute;
+    top:29% ;
+    left: 71% ;
+
 }
 
 #game-video {
@@ -41,15 +48,30 @@ body {
 }
 
 #game-description {
-    font-size: 16px;
+    font-size: 23px;
     margin-bottom: 10px;
+    text-shadow: 1px 1px 1px #666;
+    background-color: #666;
+    
 }
 
-#game-rating,
-#game-genre {
-    font-size: 14px;
-    color: #666;
+#game-rating{
+    font-size: 30px;
+    color: yellow;
+    text-shadow: 1px 1px 1px  black;
+    position: absolute;
+    top:20% ;
+    left: 69% ;
 }
+#game-genre {
+    font-size: 35px;
+    color: gold;
+    text-shadow: 1px 1px 1px  black;
+    position: absolute;
+    top:40% ;
+    left: 69% ;
+}
+
 
 button {
     padding: 10px 20px;
