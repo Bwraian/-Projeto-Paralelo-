@@ -49,13 +49,13 @@ body {
 #game-description {
   font-size: 23px;
   margin-bottom: 10px;
-  text-shadow: 1px 1px 1px #666;
-  background-color: #666;
+  text-shadow: 1px 1px 1px #050505;
+/*  background-color: #666; */
 }
 
 #game-rating {
   font-size: 30px;
-  color: yellow;
+  color: rgb(252, 252, 252);
   text-shadow: 1px 1px 1px black;
   position: absolute;
   top: 20%;
@@ -63,7 +63,7 @@ body {
 }
 #game-genre {
   font-size: 35px;
-  color: gold;
+  color: rgb(255, 255, 255);
   text-shadow: 1px 1px 1px black;
   position: absolute;
   top: 40%;
