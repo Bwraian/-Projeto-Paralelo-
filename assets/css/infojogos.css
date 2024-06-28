@@ -69,7 +69,16 @@ body {
   top: 40%;
   left: 69%;
 }
+#game-link{
 
+  font-size: 30px; 
+  color: #ffffff;
+  text-shadow: 1px 1px 1px black;
+  position: relative; 
+  display: block;
+  margin-top: 10px; 
+
+}
 button {
   padding: 10px 20px;
   margin: 5px;
